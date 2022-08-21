@@ -4,16 +4,21 @@
     padding: 0;
 }
 body {
-    background-color: black;
+    background-color: #E1E3F2;}
+.container__nav__links{
+    display: flex;
+    gap: 100px;
+    
 }
-
+p {
+    display: inline-block;
+}
 .container__nav__links li, a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     list-style-type: none;
     display: inline-block;
-    padding: 25px;
 }
 .container__navbar {
     display: flex;
@@ -22,8 +27,8 @@ body {
     padding: 20px;
     align-items: center;
     justify-content: end;
-    background-color: #344DF0;
-    font-weight: 200px;
+    background: linear-gradient(to right, #000428, #004e92);
+     font-weight: 200px;
 
 }
 
@@ -34,10 +39,86 @@ body {
     left: -10px;
     
  }
-a:hover {
+li>a:hover {
     color: #344DF0;
     transition: 1s ease;
     border-radius: 10px;
     background-color: #FF853D;
     
  }
+ .hero {
+    background-color: #E1E3F2;
+ }
+.container__hero {
+    
+    margin-left: 250px;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.descripcion {
+    width: 500px;
+    height: 100px;
+    
+}
+.slogan {
+    font-size: x-large;
+}
+.container__img__empresa {
+    display: flex;
+    align-content: center;
+    
+}
+.img__empresa {
+    width: 500px;
+    height: 400px;
+    margin-left: 1100px;
+    margin-top: -170px;
+    position: sticky;
+    
+}
+.container__bottom {
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    margin-top: -150px;
+    
+}
+.btn__contacto{
+    width: 250px;
+    border-radius: 13px;
+    border: none;
+    background: linear-gradient(to right, #141e30, #243b55);}
+.btn__informacion {
+    width: 250px;
+    border-radius: 13px;
+    border: none;
+    background: linear-gradient(to right, #141e30, #243b55);}
+
+.container__texto {
+    margin-top: -150px;
+    height: 500px;
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 500px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align:left;
+}
+.texto {
+    margin-top: 0;
+}
+.art__all {
+    background-color: #E1E3F2;
+    height: 1000px;
+    width: 1800px;
+    
+}
