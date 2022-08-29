@@ -8,18 +8,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
     <title>EntregaDos</title>
 </head>
 <body>
     <header>
         <div class="container__navbar">
-        
+            >
             <img class="logo" src="./imagen/88e70b685f974061a4f4fce6c49c84e7-removebg-preview.png" alt="logo">
-
+            <img src="./imagen/bars.png" class="bars" alt="bars">
+            <input type="checkbox" id="check">
         <nav>
-             <div class="container__contacto">
+             <div class="container__nav">
                         <ul class="container__nav__links">
-                         <li><a class="Inicio" href="#">Inicio</a></li>
+                         <li><a class="active" href="#">Inicio</a></li>
                          <li><a class="SobreMi" href="#">Sobre nosotros</a></li>
                          <li><a class="MisProyectos" href="#">Catalogo</a></li>
                          <li><a class= "Contacto" href="#">Contacto</a></li>
@@ -30,33 +32,104 @@
         </div>
     </header>
     <article >
-        <div class="art__all">
         <div class="container__hero">
-            <div class="slogan">
-                <h2>Tecnologia en caucho.</h2>
-            </div>
-            <div class="descripcion">
-               <p> Nos dedicamos a la fabricación y comercialización de Orings y piezas técnicas en caucho. Fabricamos sellos, arandelas, bujes, diafragmas, discos, piezas goma-metal y los más diversos artículos técnicos. </p>
-            </div>
-            <div class="container__img__empresa">
-                <img class="img__empresa" src="./imagen/Lawigom_instalaciones_10.jpg" alt="Lawigom_instalaciones">
-            </div>
-            <div class="container__bottom">
-            <button class="btn__informacion"><a href="#">Mas informacion</a></button>
-            <button class="btn__contacto"><a href="#">¡Contactenos!</a></button>
-            </div>
+            <div class="hero">
+                <div class="slogan">
+                    <h2>Tecnologia en caucho.</h2>
+                </div>
+                <div class="descripcion">
+                    <p> Nos dedicamos a la fabricación y comercialización de Orings y piezas técnicas en caucho. Fabricamos sellos, arandelas, bujes, diafragmas, discos, piezas goma-metal y los más diversos artículos técnicos. </p>
+                </div>
             
-        </div>
-        <div class="container__texto">
-            <div class="texto">
-            <p>Proveemos al mercado argentino en los rubros automotriz, petróleo (AED), gas natural, GNC, combustible, grifería, agua, válvulas, veterinaria, alimenticio, entre otros.</p>
+                <div class="container__bottom">
+                    <button class="btn__informacion"><a href="#">Mas informacion</a></button>
+                    <button class="btn__contacto"><a href="#">¡Contactenos!</a></button>
+                </div>
+                <div class="container__texto">
+                    <div class="texto">
+                        <p>Proveemos al mercado argentino en los rubros automotriz, petróleo (AED), gas natural, GNC, combustible, grifería, agua, válvulas, veterinaria, alimenticio, entre otros.</p>
 
-               <p> LAWIGOM S.A. es una empresa de capitales Argentinos fundada en el año 2007. Su directorio e integrantes vienen de una vasta experiencia en la industria del caucho desde hace ya más de 25 años. Nuestra empresa cuenta con una planta de más de 1.500 mt2 situada en la localidad de Ituzaingó, provincia de Buenos Aires.</p>
+                        <p> LAWIGOM S.A. es una empresa de capitales Argentinos fundada en el año 2007. Su directorio e integrantes vienen de una vasta experiencia en la industria del caucho desde hace ya más de 25 años. Nuestra empresa cuenta con una planta de más de 1.500 mt2 situada en la localidad de Ituzaingó, provincia de Buenos Aires.</p>
                 
             
-        </div>
+                    </div>
+                </div>
+            </div>
+         <div class="container__img__empresa">
+                <img class="img__empresa" src="./imagen/Lawigom_instalaciones_10.jpg" alt="Lawigom_instalaciones">
+         </div>
      </div>
-    </div>
     </article>
+    <article>
+        <div class="container__beneficios">
+            <div class="valores__empresa">
+                <div class="elegirnos">
+                 <h2>¿Por que elegirnos?</h2>
+                </div>
+                
+                <p>Nos regimos por los siguientes valores: Miramos hacia el futuro orientados al resultado. Actuamos con Responsabilidad. Tenemos Iniciativa y coherencia para perseguir nuestras Metas y Objetivos. Actuamos con Transparencia y Confianza. Sinceridad, Honestidad y Fiabilida</p>
+            
+            </div>
+            <div class="container__card">
+                <div class="first__card">
+                    <div class="top__card">
+                    <img src="./imagen/profits.png" class="img__profits">
+                    <h2>El mejor precio de la zona</h2>
+                    </div>
+                    <div class="card__text">
+                     <p>Trabajamos hace mas de 15 años para mantener el mejor precio de la zona, sin perder nuestra calidad. Manejamos ofertas tanto mayoristas, como minoristas.</p>
+                    </div>
+                    <button class="btn__card first" >Productos</button>
+                </div>
+                <div class="second__card">
+                    <img src="./imagen/calidad.png" class="img__profits">
+                    <h2>La mejor calidad</h2>
+                    <div class="card__text">
+                     <p>Nuestros productos son 100% caucho, con maquinaria de ultimo nivel </p>
+                    </div>
+                    <button class="btn__card second">Calidad</button>
+                </div>
+                <div class="third__card">
+                    <img src="./imagen/atencionCliente.png" class="img__profits">
+                    <h2>La mejor atencion al cliente</h2>
+                    <div class="card__text">
+                        <p>Estamos en contancto siempre con el cliente, verificar que todo este bien y ante cualquier duda, responderla con la minima brevedad posible.</p>
+                    </div>
+                    <button class="btn__card third">Nuestras instalaciones</button>
+                </div>
+            </div>
+
+        </div>     
+    </article>
+<footer>
+    <article>
+        <div class="container__contacto">
+            <div class="child__contacto">
+                <h3>Contactanos</h3>
+                <div class="lista__contacto">
+                    <h4>Ituzaingó, Buenos Aires</h4>
+                    
+                    <ul>
+                        <div class="listaa">
+                        <li><img src="./imagen/ubicacion-removebg-preview.png" class="logo__contacto">Restorito 423</li>
+                        <li><img src="./imagen/mail-removebg-preview.png" class="logo__contacto">mailcualquiera@gmail.com</li>
+                        <li><img src="./imagen/telefono-removebg-preview.png" class="logo__contacto">123456897</li>
+                    </div>
+                    </ul>
+                </div>
+                    
+                
+            </div>
+            <div class="img__contacto">
+                <img src="./imagen/f88bf5ca1ec5dd1af3f4.png" alt="Lawigom_instalaciones" class="contacto">
+            </div>
+        </div>
+        <div class="logos">
+            <img src="./imagen/fb_2022-08-27_142543257-removebg-preview.png" alt="" class="logo_redes">
+            <img src="./imagen/ig-removebg-preview.png" alt="" class="logo_redes">
+            <img src="./imagen/twitter-removebg-preview.png" alt="" class="logo_redes">
+        </div>
+    </article>
+</footer>
 </body>
 </html>
